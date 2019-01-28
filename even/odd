@@ -11,7 +11,7 @@ System.out.println("Number is even");
 }
 else
 {
-System.out.println("Number is even");
+System.out.println("Number is odd");
 }
 }
 }
