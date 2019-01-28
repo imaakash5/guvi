@@ -1,6 +1,6 @@
 import java.io.*;
 class Vowel
-{String s;
+{char ch;
 public static void main()
 { Scanner y=new Scanner (System.in);
 s=y.next();
@@ -8,8 +8,10 @@ if (s.equalsIgnoreCase(a)||s.equalsIgnoreCase(e)||s.equalsIgnoreCase(i)||s.equal
 {
 System.out.println("Character is vowel");
 }
-else
-System.out.println("Character is consona");
+else if(s >= 'a' && s<='z'||s >= 'A' && s<='Z')
+System.out.println("Character is consonant");
+else 
+  System.out.println("Character is invalid");
 }
 }
 
